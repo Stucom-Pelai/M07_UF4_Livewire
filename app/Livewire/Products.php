@@ -28,7 +28,7 @@ class Products extends Component
     {
         $this->title = 'Add New Product';
 
-        $this->reset('name', 'description');
+        $this->reset('product_id', 'name', 'description');
 
         $this->isEdit = false;
     }
